@@ -44,7 +44,7 @@ users.php
 DatabaseSeeder.php
 ``````````
 
-##### Modified Files in (app/Http/)
+##### Modified Files in (app/Http)
 
 
 ``````````
