@@ -16,13 +16,21 @@ Simple application for simulating shop cart, customer and admin roles
 
 1. Download project to your machine `git clone https://github.com/Hellsos/laravel_simple_shop.git`
 
-2. Generate .env key `php artisan key:generate`
+2. Install dependecies via composer `composer install`
 
-3. Change DB credentials in .env file
+3. Rename .env_example to .env
 
-4. Generate tables into your DB `php artisan migrate`
+4. Generate application key `php artisan key:generate`
 
-5. Enjoy Website :) 
+5. Change DB credentials in .env file
+
+6. Generate tables into your DB `php artisan migrate`
+
+7. Insert first `php artisan db:seed` (optional, if you can not insert into user's table **admin** user)
+ 
+  *Example admin user has email:* **admin@example.com** * and password: * **admin123** 
+
+8. Enjoy Website :) 
 
 ---
 ## Changes in Laravel
