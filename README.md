@@ -1,1 +1,1 @@
-# laravel_simple_shop
+# laravel simple shop application
